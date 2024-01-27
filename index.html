@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="main">
+        <div id="cesiumContainer"></div>
+    </div>
+    <script type="module">
+        Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MGExODEwNy00N2JiLTQ3ODctYmE5YS1kY2JhZjM4ODY2ZTQiLCJpZCI6MTc1NTY0LCJpYXQiOjE3MDYzMzg1Nzd9.ARWiVmIv4GhTJXvDNETKLn1uDcdeIecSmo3hZnzckgM';
+
+        defineDefaultCesiumCameraSettings()
+
+        const viewer = createViewer()
+        const scene = viewer.scene
+
+        /**
+         * Cesium camera settings
+         */
+        function defineDefaultCesiumCameraSettings() {
+            Cesium.Camera.DEFAULT_VIEW_FACTOR = 0.1;
+            Cesium.Camera.DEFAULT_VIEW_RECTANGLE = Cesium.Rectangle.fromDegrees(22.0, 44.0, 40.0, 52.0);
+        }
+
+
+        /**
+         * Creates viewer and defines its default settings
+         * @returns {*}
+         */
+        function createViewer() {
+            let viewer = new Cesium.Viewer('cesiumContainer', {
+                imageryProvider: getDefaultImageryProvider(),
+                animation: false,
+                sceneModePicker: true,
+                homeButton: false,
+                timeline: false,
+                requestRenderMode: true,
+                maximumRenderTimeChange: Infinity,
+                mapProjection: new Cesium.WebMercatorProjection(),
+            });
+
+            viewer.scene.skyBox.show = false;
+
+            viewer.scene.globe.tileCacheSize = 1000;
+            viewer.scene.postProcessStages.fxaa.enabled = false;
+
+            const scene = viewer.scene;
+            if (!scene.pickPositionSupported) {
+                window.alert("This browser does not support pickPosition.");
+            }
+
+            return viewer
+        }
+
+        /**
+         * Defines default map
+         * @returns {Cesium.ArcGisMapServerImageryProvider}
+         */
+        function getDefaultImageryProvider() {
+            // ESRI
+            return new Cesium.ArcGisMapServerImageryProvider({
+                url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+            });
+        }
+
+    </script>
+</body>
+</html>
