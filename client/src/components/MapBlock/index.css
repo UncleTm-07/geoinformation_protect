@@ -1,0 +1,22 @@
+.cesium-viewer-toolbar {
+    right: 45px;
+
+    z-index: 1;
+}
+
+.cesium-viewer-animationContainer {
+    display: none;
+}
+
+.cesium-viewer-timelineContainer {
+    display: none;
+}
+
+.cesium-viewer-bottom {
+    display: none;
+}
+
+#cesiumContainer .cesium-infoBox {
+    top: 50%;
+    left: 10px;
+}

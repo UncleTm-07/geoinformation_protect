@@ -1,0 +1,35 @@
+.nav-bar {
+    user-select: none;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 27px;
+    color: white;
+}
+
+.nav-bar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 31px;
+}
+
+.nav-icon {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3235;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+    background-color: #335d5c;
+    box-shadow: rgb(83, 178, 177) 0px 10px 36px 0px, rgb(83, 178, 177) 0px 0px 0px 1px;}
