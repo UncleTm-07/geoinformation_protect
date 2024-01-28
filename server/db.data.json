@@ -6,8 +6,9 @@
       "status": "disabled",
       "date_of_detection": "2023-10-20",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 48.921500,
-      "longitude": 24.709723
+      "latitude": 46.482127,
+      "longitude": 30.711794,
+      "radius": 10
     },
     {
       "id": 2,
@@ -15,8 +16,9 @@
       "status": "active",
       "date_of_detection": "2023-08-15",
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
-      "latitude": 49.839683,
-      "longitude": 24.029717
+      "latitude": 46.482544,
+      "longitude": 30.711014,
+      "radius": 12
     },
     {
       "id": 3,
@@ -24,8 +26,9 @@
       "status": "active",
       "date_of_detection": "2023-09-25",
       "img": "",
-      "latitude": 50.454660,
-      "longitude": 30.523080
+      "latitude": 46.482433,
+      "longitude": 30.713355,
+      "radius": 0
     },
     {
       "id": 4,
@@ -33,8 +36,9 @@
       "status": "active",
       "date_of_detection": "2023-11-01",
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
-      "latitude": 48.469390,
-      "longitude": 35.040861
+      "latitude": 46.481942,
+      "longitude": 30.713208,
+      "radius": 15
     },
     {
       "id": 5,
@@ -42,8 +46,9 @@
       "status": "disabled",
       "date_of_detection": "2023-07-12",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 49.553517,
-      "longitude": 25.594767
+      "latitude": 46.481836,
+      "longitude": 30.711438,
+      "radius": 10
     },
     {
       "id": 6,
@@ -51,8 +56,9 @@
       "status": "active",
       "date_of_detection": "2023-10-05",
       "img": "",
-      "latitude": 47.809490,
-      "longitude": 35.168001
+      "latitude": 46.483238,
+      "longitude": 30.711601,
+      "radius": 0
     },
     {
       "id": 7,
@@ -60,8 +66,9 @@
       "status": "active",
       "date_of_detection": "2023-12-03",
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
-      "latitude": 48.912332,
-      "longitude": 24.710397
+      "latitude": 46.482354,
+      "longitude": 30.711127,
+      "radius": 15
     },
     {
       "id": 8,
@@ -69,8 +76,9 @@
       "status": "disabled",
       "date_of_detection": "2023-09-18",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 49.245811,
-      "longitude": 28.468716
+      "latitude": 46.481765,
+      "longitude": 30.711964,
+      "radius": 10
     },
     {
       "id": 9,
@@ -78,8 +86,9 @@
       "status": "active",
       "date_of_detection": "2023-11-20",
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
-      "latitude": 48.719939,
-      "longitude": 37.518958
+      "latitude": 46.481606,
+      "longitude": 30.712004,
+      "radius": 12
     },
     {
       "id": 10,
@@ -87,8 +96,9 @@
       "status": "active",
       "date_of_detection": "2023-08-27",
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
-      "latitude": 50.005127,
-      "longitude": 36.229476
+      "latitude": 46.482373,
+      "longitude": 30.711995,
+      "radius": 15
     },
     {
       "id": 11,
@@ -96,8 +106,9 @@
       "status": "active",
       "date_of_detection": "2023-07-05",
       "img": "",
-      "latitude": 48.464717,
-      "longitude": 35.052216
+      "latitude": 46.482315,
+      "longitude": 30.711522,
+      "radius": 0
     },
     {
       "id": 12,
@@ -105,8 +116,9 @@
       "status": "disabled",
       "date_of_detection": "2023-09-10",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 50.610108,
-      "longitude": 26.140214
+      "latitude": 46.482611,
+      "longitude": 30.712369,
+      "radius": 10
     },
     {
       "id": 13,
@@ -114,8 +126,9 @@
       "status": "active",
       "date_of_detection": "2023-11-08",
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
-      "latitude": 48.464980,
-      "longitude": 35.042555
+      "latitude": 46.482512,
+      "longitude": 30.712456,
+      "radius": 12
     },
     {
       "id": 14,
@@ -123,8 +136,9 @@
       "status": "active",
       "date_of_detection": "2023-10-12",
       "img": "",
-      "latitude": 49.438750,
-      "longitude": 32.061126
+      "latitude": 46.482450,
+      "longitude": 30.711938,
+      "radius": 0
     },
     {
       "id": 15,
@@ -132,8 +146,9 @@
       "status": "active",
       "date_of_detection": "2023-08-23",
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
-      "latitude": 50.616673,
-      "longitude": 26.255608
+      "latitude": 46.482774,
+      "longitude": 30.712241,
+      "radius": 15
     },
     {
       "id": 16,
@@ -141,8 +156,9 @@
       "status": "disabled",
       "date_of_detection": "2023-09-30",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 48.437600,
-      "longitude": 22.718670
+      "latitude": 46.482851,
+      "longitude": 30.712373,
+      "radius": 10
     },
     {
       "id": 17,
@@ -150,8 +166,9 @@
       "status": "active",
       "date_of_detection": "2023-12-10",
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
-      "latitude": 48.929570,
-      "longitude": 38.479996
+      "latitude": 46.482197,
+      "longitude": 30.711460,
+      "radius": 12
     },
     {
       "id": 18,
@@ -159,8 +176,9 @@
       "status": "active",
       "date_of_detection": "2023-07-28",
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
-      "latitude": 50.750539,
-      "longitude": 25.338942
+      "latitude": 46.482688,
+      "longitude": 30.711675,
+      "radius": 15
     },
     {
       "id": 19,
@@ -168,8 +186,9 @@
       "status": "active",
       "date_of_detection": "2023-11-25",
       "img": "",
-      "latitude": 48.447500,
-      "longitude": 32.057233
+      "latitude": 46.482661,
+      "longitude": 30.711848,
+      "radius": 0
     },
     {
       "id": 20,
@@ -177,8 +196,9 @@
       "status": "disabled",
       "date_of_detection": "2023-08-10",
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
-      "latitude": 49.791300,
-      "longitude": 23.975424
+      "latitude": 46.482428,
+      "longitude": 30.711986,
+      "radius": 10
     }
   ]
 }

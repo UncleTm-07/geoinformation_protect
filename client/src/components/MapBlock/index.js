@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {CameraFlyTo, Entity, Viewer} from 'resium';
+import {CameraFlyTo, Entity, EntityDescription, Viewer} from 'resium';
 import { EllipseGraphics  } from 'resium';
 import {ArcGisMapServerImageryProvider, Cartesian3, Color} from 'cesium';
 import * as Cesium from "cesium";
@@ -40,21 +40,29 @@ export default function MapBlock({mines}) {
                 padding: 20,
             }}
         >
-            <CameraFlyTo destination={Cartesian3.fromDegrees(30.74612, 50.14317, 3000000)} />
+            {/*<CameraFlyTo destination={Cartesian3.fromDegrees(30.74612, 50.14317, 3000000)} />*/}
             {_mines?.map((value) => (
                 <Entity
                     key={`Point-${value.id}`}
                     name={"some"}
-                    position={Cartesian3.fromDegrees(value.longitude, value.latitude, 0)}
-                    point={{ pixelSize: 10, color: Color.RED }}
+                    position={Cartesian3.fromDegrees(value.longitude, value.latitude, 1)}
+                    point={{ pixelSize: 5, color: Color.RED }}
                 >
+                    <EntityDescription>
+                        <h1>Тип міни: протитанкова міна</h1>
+                        <span>Статус загрози: працює</span>
+                        <br/>
+                        <span>Приблизний радіус ураження: 10 метрів</span>
+                        <br/>
+                        <img width={400} src={value.img} alt=""/>
+                    </EntityDescription>
                     <EllipseGraphics
                         center={Cartesian3.fromDegrees(value.longitude, value.latitude, 0)}
-                        semiMajorAxis={10000}
-                        semiMinorAxis={10000}
-                        material={Color.BLUE.withAlpha(0.3)}
+                        semiMajorAxis={value.radius}
+                        semiMinorAxis={value.radius}
+                        material={Color.RED.withAlpha(0.3)}
                         outline={true}
-                        outlineColor={Color.BLUE}
+                        outlineColor={Color.YELLOW}
                         height={0}
                         numberOfVerticalLines={64}
                     />
