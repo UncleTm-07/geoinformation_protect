@@ -16,7 +16,7 @@
     display: none;
 }
 
-#cesiumContainer .cesium-infoBox {
-    top: 50%;
+.cesium-infoBox {
+    top: 10%;
     left: 10px;
 }
