@@ -13,13 +13,18 @@ const ServerCard = ({value, getCoordinate, getMines, editServer}) => {
     const [edit, setEdit] = useState(false)
 
     const [server, setServer] = useState(value)
+    const [rerender, setRerender] = useState(false)
+
+    const forceRerender = () => setRerender(!rerender)
 
     function editServerName(_name) {
         setServer({...server, name: _name});
+        forceRerender()
     }
 
     function editServerStatus(_status) {
         setServer({...server, status: _status});
+        forceRerender()
     }
 
 
