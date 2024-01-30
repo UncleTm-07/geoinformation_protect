@@ -8,7 +8,8 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.482127,
       "longitude": 30.711794,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
       "latitude": 46.482544,
       "longitude": 30.711014,
-      "radius": 12
+      "radius": 12,
+      "control_points_id": 1
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "img": "",
       "latitude": 46.482433,
       "longitude": 30.713355,
-      "radius": 0
+      "radius": 0,
+      "control_points_id": 1
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
       "latitude": 46.481942,
       "longitude": 30.713208,
-      "radius": 15
+      "radius": 15,
+      "control_points_id": 1
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.481836,
       "longitude": 30.711438,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "img": "",
       "latitude": 46.483238,
       "longitude": 30.711601,
-      "radius": 0
+      "radius": 0,
+      "control_points_id": 1
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
       "latitude": 46.482354,
       "longitude": 30.711127,
-      "radius": 15
+      "radius": 15,
+      "control_points_id": 1
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.481765,
       "longitude": 30.711964,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
       "latitude": 46.481606,
       "longitude": 30.712004,
-      "radius": 12
+      "radius": 12,
+      "control_points_id": 1
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
       "latitude": 46.482373,
       "longitude": 30.711995,
-      "radius": 15
+      "radius": 15,
+      "control_points_id": 1
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "img": "",
       "latitude": 46.482315,
       "longitude": 30.711522,
-      "radius": 0
+      "radius": 0,
+      "control_points_id": 1
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.482611,
       "longitude": 30.712369,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
       "latitude": 46.482512,
       "longitude": 30.712456,
-      "radius": 12
+      "radius": 12,
+      "control_points_id": 1
     },
     {
       "id": 14,
@@ -136,9 +149,10 @@
       "status": "active",
       "date_of_detection": "2023-10-12",
       "img": "",
-      "latitude": 46.482450,
+      "latitude": 46.48245,
       "longitude": 30.711938,
-      "radius": 0
+      "radius": 0,
+      "control_points_id": 1
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
       "latitude": 46.482774,
       "longitude": 30.712241,
-      "radius": 15
+      "radius": 15,
+      "control_points_id": 1
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.482851,
       "longitude": 30.712373,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
     },
     {
       "id": 17,
@@ -167,8 +183,9 @@
       "date_of_detection": "2023-12-10",
       "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
       "latitude": 46.482197,
-      "longitude": 30.711460,
-      "radius": 12
+      "longitude": 30.71146,
+      "radius": 12,
+      "control_points_id": 1
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
       "latitude": 46.482688,
       "longitude": 30.711675,
-      "radius": 15
+      "radius": 15,
+      "control_points_id": 1
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "img": "",
       "latitude": 46.482661,
       "longitude": 30.711848,
-      "radius": 0
+      "radius": 0,
+      "control_points_id": 1
     },
     {
       "id": 20,
@@ -198,27 +217,464 @@
       "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
       "latitude": 46.482428,
       "longitude": 30.711986,
-      "radius": 10
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 21,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2023-12-20",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.487854,
+      "longitude": 30.702014,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 22,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2023-12-21",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 46.4885,
+      "longitude": 30.7012,
+      "radius": 12,
+      "control_points_id": 1
+    },
+    {
+      "id": 23,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2023-12-22",
+      "img": "",
+      "latitude": 46.4888,
+      "longitude": 30.7025,
+      "radius": 0,
+      "control_points_id": 1
+    },
+    {
+      "id": 24,
+      "type": "anti-tank",
+      "status": "disabled",
+      "date_of_detection": "2023-12-23",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 46.4882,
+      "longitude": 30.703,
+      "radius": 15,
+      "control_points_id": 1
+    },
+    {
+      "id": 25,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2023-12-24",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.4875,
+      "longitude": 30.7035,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 26,
+      "type": "not specified",
+      "status": "disabled",
+      "date_of_detection": "2023-12-25",
+      "img": "",
+      "latitude": 46.4878,
+      "longitude": 30.704,
+      "radius": 0,
+      "control_points_id": 1
+    },
+    {
+      "id": 27,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2023-12-26",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 46.4883,
+      "longitude": 30.7045,
+      "radius": 15,
+      "control_points_id": 1
+    },
+    {
+      "id": 28,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2023-12-27",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.4886,
+      "longitude": 30.705,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 29,
+      "type": "anti-transport",
+      "status": "disabled",
+      "date_of_detection": "2023-12-28",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 46.4889,
+      "longitude": 30.7055,
+      "radius": 12,
+      "control_points_id": 1
+    },
+    {
+      "id": 30,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2023-12-29",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 46.4877,
+      "longitude": 30.706,
+      "radius": 15,
+      "control_points_id": 1
+    },
+    {
+      "id": 31,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2023-12-30",
+      "img": "",
+      "latitude": 46.4873,
+      "longitude": 30.7065,
+      "radius": 0,
+      "control_points_id": 1
+    },
+    {
+      "id": 32,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2023-12-31",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.4881,
+      "longitude": 30.707,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 33,
+      "type": "anti-transport",
+      "status": "disabled",
+      "date_of_detection": "2024-01-01",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 46.4884,
+      "longitude": 30.7075,
+      "radius": 12,
+      "control_points_id": 1
+    },
+    {
+      "id": 34,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-02",
+      "img": "",
+      "latitude": 46.4887,
+      "longitude": 30.708,
+      "radius": 0,
+      "control_points_id": 1
+    },
+    {
+      "id": 35,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-03",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 46.4876,
+      "longitude": 30.7085,
+      "radius": 15,
+      "control_points_id": 1
+    },
+    {
+      "id": 36,
+      "type": "anti-personnel",
+      "status": "disabled",
+      "date_of_detection": "2024-01-04",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.4879,
+      "longitude": 30.709,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 37,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2024-01-05",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 46.4872,
+      "longitude": 30.7095,
+      "radius": 12,
+      "control_points_id": 1
+    },
+    {
+      "id": 38,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-06",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 46.488,
+      "longitude": 30.71,
+      "radius": 15,
+      "control_points_id": 1
+    },
+    {
+      "id": 39,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-07",
+      "img": "",
+      "latitude": 46.4885,
+      "longitude": 30.7105,
+      "radius": 0,
+      "control_points_id": 1
+    },
+    {
+      "id": 40,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-08",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 46.4888,
+      "longitude": 30.711,
+      "radius": 10,
+      "control_points_id": 1
+    },
+    {
+      "id": 41,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-09",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.489354,
+      "longitude": 30.702014,
+      "radius": 10,
+      "control_points_id": 2
+    },
+    {
+      "id": 42,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2024-01-10",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 47.4899,
+      "longitude": 30.7012,
+      "radius": 12,
+      "control_points_id": 2
+    },
+    {
+      "id": 43,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-11",
+      "img": "",
+      "latitude": 47.4902,
+      "longitude": 30.7025,
+      "radius": 0,
+      "control_points_id": 2
+    },
+    {
+      "id": 44,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-12",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 47.4896,
+      "longitude": 30.703,
+      "radius": 15,
+      "control_points_id": 2
+    },
+    {
+      "id": 45,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-13",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.4889,
+      "longitude": 30.7035,
+      "radius": 10,
+      "control_points_id": 2
+    },
+    {
+      "id": 46,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-14",
+      "img": "",
+      "latitude": 47.4892,
+      "longitude": 30.704,
+      "radius": 0,
+      "control_points_id": 2
+    },
+    {
+      "id": 47,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-15",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 47.4897,
+      "longitude": 30.7045,
+      "radius": 15,
+      "control_points_id": 2
+    },
+    {
+      "id": 48,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-16",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.49,
+      "longitude": 30.705,
+      "radius": 10,
+      "control_points_id": 2
+    },
+    {
+      "id": 49,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2024-01-17",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 47.4903,
+      "longitude": 30.7055,
+      "radius": 12,
+      "control_points_id": 2
+    },
+    {
+      "id": 50,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-18",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 47.4888,
+      "longitude": 30.706,
+      "radius": 15,
+      "control_points_id": 2
+    },
+    {
+      "id": 51,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-19",
+      "img": "",
+      "latitude": 47.4884,
+      "longitude": 30.7065,
+      "radius": 0,
+      "control_points_id": 2
+    },
+    {
+      "id": 52,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-20",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.4892,
+      "longitude": 30.707,
+      "radius": 10,
+      "control_points_id": 2
+    },
+    {
+      "id": 53,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2024-01-21",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 47.4895,
+      "longitude": 30.7075,
+      "radius": 12,
+      "control_points_id": 2
+    },
+    {
+      "id": 54,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-22",
+      "img": "",
+      "latitude": 47.4898,
+      "longitude": 30.708,
+      "radius": 0,
+      "control_points_id": 2
+    },
+    {
+      "id": 55,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-23",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 47.4887,
+      "longitude": 30.7085,
+      "radius": 15,
+      "control_points_id": 2
+    },
+    {
+      "id": 56,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-24",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.489,
+      "longitude": 30.709,
+      "radius": 10,
+      "control_points_id": 2
+    },
+    {
+      "id": 57,
+      "type": "anti-transport",
+      "status": "active",
+      "date_of_detection": "2024-01-25",
+      "img": "https://ichef.bbci.co.uk/news/640/cpsprodpb/1380E/production/_95768897_p04x1y8c.jpg",
+      "latitude": 47.4893,
+      "longitude": 30.7095,
+      "radius": 12,
+      "control_points_id": 2
+    },
+    {
+      "id": 58,
+      "type": "anti-tank",
+      "status": "active",
+      "date_of_detection": "2024-01-26",
+      "img": "https://cdn4.suspilne.media/images/resize/900x1.78/d3e717eb3b36a8e7.jpg",
+      "latitude": 47.4898,
+      "longitude": 30.71,
+      "radius": 15,
+      "control_points_id": 2
+    },
+    {
+      "id": 59,
+      "type": "not specified",
+      "status": "active",
+      "date_of_detection": "2024-01-27",
+      "img": "",
+      "latitude": 47.4901,
+      "longitude": 30.7105,
+      "radius": 0,
+      "control_points_id": 2
+    },
+    {
+      "id": 60,
+      "type": "anti-personnel",
+      "status": "active",
+      "date_of_detection": "2024-01-28",
+      "img": "https://mil.co.ua/wp-content/uploads/2023/11/f_yjtuaw0aa2ryi.jpg",
+      "latitude": 47.4904,
+      "longitude": 30.711,
+      "radius": 10,
+      "control_points_id": 2
     }
   ],
   "control_points": [
     {
       "id": 1,
-      "api": "http://192.168.0.144/doa.xml",
-      "name": "CP - A0356",
-      "status": "active",
+      "name": "Одеса",
+      "status": true,
       "latitude": 46.482354,
-      "longitude": 30.702014,
-      "radius": 1500
+      "longitude": 30.702014
     },
     {
       "id": 2,
-      "api": "http://192.168.0.25/doa.xml",
-      "name": "CP - A7844",
-      "status": "active",
-      "latitude": 47.482354,
-      "longitude": 30.702014,
-      "radius": 1500
+      "name": "Веселий Кург Другий",
+      "status": true,
+      "latitude": 47.4884,
+      "longitude": 30.7065
     }
   ]
 }

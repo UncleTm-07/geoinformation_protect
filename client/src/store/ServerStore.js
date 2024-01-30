@@ -16,9 +16,17 @@ export default class ServerStore {
         this.servers = servers;
     }
 
-    async getServerWithAttribute(api) {
+    async getServer() {
         try {
-            return await ServerService.getServer(api);
+            return await ServerService.getServer();
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    async editServer(server) {
+        try {
+            return await ServerService.editServer(server);
         } catch (e) {
             console.log(e);
         }

@@ -1,13 +1,13 @@
 import React from 'react';
-import {FaServer} from "react-icons/fa";
 import "./index.css"
+import {MdOutlineLandscape} from "react-icons/md";
 
 const MenuBlock = ({widget, setWidget}) => {
     return (
         <div className="nav-bar">
             <ul>
                 <li className="nav-icon" onClick={() => widget === "server" ? setWidget("") : setWidget("server")}>
-                    <FaServer/>
+                    <MdOutlineLandscape />
                 </li>
             </ul>
         </div>

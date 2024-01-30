@@ -17,6 +17,14 @@
     height: max-content;
 }
 
+.powerButtonOn {
+    color: green;
+}
+
+.powerButtonOff {
+    color: red;
+}
+
 .serverCard_buttons{
     display: flex;
     flex-direction: column;

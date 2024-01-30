@@ -2,10 +2,25 @@ import React, {useState} from 'react';
 import "./index.css"
 import {FaPlaneDeparture, FaRegTrashAlt} from "react-icons/fa";
 import {RiEditLine} from "react-icons/ri";
+import {IoSaveOutline} from "react-icons/io5";
+import {CiCircleRemove} from "react-icons/ci";
+import {FiPower} from "react-icons/fi";
+import EditInput from "../EditInput";
+import {GrStatusGood, GrStatusWarning} from "react-icons/gr";
 
-const ServerCard = ({value, getCoordinate}) => {
+const ServerCard = ({value, getCoordinate, getMines, editServer}) => {
 
     const [edit, setEdit] = useState(false)
+
+    const [server, setServer] = useState(value)
+
+    function editServerName(_name) {
+        setServer({...server, name: _name});
+    }
+
+    function editServerStatus(_status) {
+        setServer({...server, status: _status});
+    }
 
 
     return (
@@ -13,47 +28,54 @@ const ServerCard = ({value, getCoordinate}) => {
             {
                 edit ?
                     <div className={"serverCard_container"}>
-
+                        <EditInput title={"Name"} name={server.name} typeOfInput={"text"} editServerName={editServerName}/>
                     </div>
                     :
                     <div className={"serverCard_container"}>
-                        <h4 style={{textDecoration: "underline"}}>Контрольний пункт №{value?.id}</h4>
-                        <span>Name: {value?.name}</span>
-                        <span>
-                    Status:
-                        <span style={value?.status === "active" ?
-                            {
-                                color: "green",
-                                backgroundColor: "green",
-                                borderRadius: "20px",
-                                padding: "0 7px 0 7px",
-                                marginLeft: "10px"
-                            }
-                            :
-                            {color: "red", backgroundColor: "red", borderRadius: "20px", padding: "0 7px 0 7px"}}>
-                             0
-                        </span>
-                </span>
-                        <span>Longitude: {value?.longitude}</span>
-                        <span>Latitude: {value?.latitude}</span>
+                        <h4 style={{textDecoration: "underline"}}>Ділянка №{value?.id}</h4>
+                        <span>Назва: {value?.name}</span>
+                        <span>Довгота: {value?.longitude}</span>
+                        <span>Широта: {value?.latitude}</span>
                     </div>
 
             }
             {
                 edit ?
                     <div className={"serverCard_buttons"}>
-                        <button onClick={() => getCoordinate(value.longitude, value.latitude)}
+                        <button onClick={() => {
+                            editServer(server)
+                            setTimeout(() => {
+                                setEdit(false)
+                            }, 300)
+                        }}
                                 style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
-                            <FaPlaneDeparture/>
+                            <IoSaveOutline />
                         </button>
                         <button onClick={() => setEdit(false)}
                                 style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
-                            <RiEditLine/>
+                            <CiCircleRemove />
                         </button>
                     </div>
                     :
                     <div className={"serverCard_buttons"}>
-                        <button onClick={() => getCoordinate(value.longitude, value.latitude)}
+                        <button onClick={() => {
+                            editServerStatus(!value.status)
+                            editServer(server)
+                        }}
+                                className={value.status ?   "powerButtonOn" : "powerButtonOff"}
+                                style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
+                            {
+                                value.status?
+                                    <GrStatusGood />
+                                    :
+                                    <GrStatusWarning />
+                            }
+                        </button>
+                        <button onClick={() => {
+                                getCoordinate(value.longitude, value.latitude)
+                                getMines(value.id)
+                            }
+                        }
                                 style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
                             <FaPlaneDeparture/>
                         </button>
@@ -62,7 +84,7 @@ const ServerCard = ({value, getCoordinate}) => {
                             <FaRegTrashAlt/>
                         </button>
                         <button onClick={() => setEdit(true)}
-                            style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
+                                style={{cursor: "pointer", fontSize: "20px", padding: "0 10px 0 10px"}}>
                             <RiEditLine/>
                         </button>
                     </div>

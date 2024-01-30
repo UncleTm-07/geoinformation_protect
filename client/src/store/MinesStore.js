@@ -16,9 +16,9 @@ export default class MinesStore {
         this.mines = mines;
     }
 
-    async getMines() {
+    async getMines(controlPointId) {
         try {
-            return await MinesService.getMines();
+            return await MinesService.getMines(controlPointId);
         } catch (e) {
             console.log(e);
         }

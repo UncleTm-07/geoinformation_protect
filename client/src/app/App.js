@@ -10,6 +10,7 @@ function App() {
     const [widget, setWidget] = useState("");
 
     const [mines, setMines] = useState();
+
     const [servers, setServers] = useState([])
 
     const [coordinateFly, setCoordinateFLy] = useState({})
@@ -20,21 +21,31 @@ function App() {
 
 
     useEffect(() => {
-        minesStore.getMines().then(res => {
+        serverStore.getServer().then(res => {
             if (res && res.data) {
-                setMines(res.data)
+                setServers(res.data)
             }
         })
     }, []);
 
 
-    const addNewServer = (api) => {
-        serverStore.getServerWithAttribute(api).then(res => {
+    function getMines(controlPointId) {
+        minesStore.getMines(controlPointId).then(res => {
             if (res && res.data) {
-                const newServerArray = [...servers, res.data[0]];
-                console.log(newServerArray)
-                setServers(newServerArray);
+                setMines(res.data)
             }
+        })
+    }
+
+
+
+    function editServer(server) {
+        serverStore.editServer(server).then(res => {
+            const newServerArray = servers.map(server =>
+                server.id === res.data.id ? res.data : server
+            );
+
+            setServers(newServerArray);
         })
     }
 
@@ -57,7 +68,7 @@ function App() {
     <div className={"app"}>
         <MapBlock mines={mines} servers={servers} coordinateFly={coordinateFly}/>
         <MenuBlock widget={widget} setWidget={setWidget}/>
-        <ServerWidget widget={widget} setWidget={setWidget} servers={servers} addNewServer={addNewServer} getCoordinateForFlyTo={getCoordinateForFlyTo}/>
+        <ServerWidget widget={widget} setWidget={setWidget} servers={servers} getCoordinateForFlyTo={getCoordinateForFlyTo} getMines={getMines} editServer={editServer}/>
     </div>
   );
 }
