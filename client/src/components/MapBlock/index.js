@@ -4,7 +4,7 @@ import {Cartesian3, Color, LabelStyle, ScreenSpaceEventHandler} from 'cesium';
 import * as Cesium from "cesium";
 import "./index.css"
 
-export default function MapBlock({mines, servers, coordinateFly}) {
+export default function MapBlock({mines, servers, coordinateFly, createTarget}) {
     const [_mines, setMines] = useState();
     const [_servers, setServers] = useState();
 
@@ -239,7 +239,12 @@ export default function MapBlock({mines, servers, coordinateFly}) {
                     }
                 </div>
                 <div>
-                    <button style={{padding: '10px', fontWeight: 'bold'}}>
+                    <button style={{padding: '10px', fontWeight: 'bold'}} onClick={() => {
+                        createTarget(arrayOfPoint)
+                        setTimeout(() => {
+                            setArrayOfPoint([])
+                        },300)
+                    }}>
                         Створити область знищення
                     </button>
                 </div>

@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: end;
     padding-right: 31px;
+    gap: 6px;
 }
 
 .nav-icon {
